@@ -7,7 +7,9 @@ local VITORIAS = {
 }
 
 local function novo_tabuleiro()
-  return { VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO }
+  return { VAZIO, VAZIO, VAZIO, 
+           VAZIO, VAZIO, VAZIO, 
+           VAZIO, VAZIO, VAZIO }
 end
 
 local function proximo_jogador(jogador)
